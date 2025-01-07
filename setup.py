@@ -21,8 +21,8 @@ ext = [Extension("radiomics._cmatrices", ["radiomics/src/_cmatrices.c", "radiomi
 setup(
   name='pyradiomics',
 
-  version=versioneer.get_version(),
-  cmdclass=commands,
+  # version=versioneer.get_version(),
+  # cmdclass=commands,
 
   packages=['radiomics', 'radiomics.scripts'],
   ext_modules=ext,
